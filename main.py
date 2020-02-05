@@ -21,11 +21,11 @@ def load_files():
 
 def render(game,current):
     c = game[current]
-    print("You are at the " + c["name"])
+    print("\nYou are at the " + c["name"])
     print(c["desc"])
 
 def get_input():
-    response = input("What do you want to do? ")
+    response = input("\nWhat do you want to do? ")
     response = response.upper().strip()
     return response
 
