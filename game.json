@@ -218,6 +218,101 @@
 			}
 
 		]
+	},"DEEPER OCEAN": {
+		"name": "Deeper Ocean",
+		"desc": "You swim further out and the waves start to get bigger. It seems like \nthere's something in the water to the north but you can't get a \ngood glimpse of it.",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "SHIP"
+			},{
+				"exit": "EAST",
+				"target": "SWIMWRONGWAY"
+			},{
+				"exit": "SOUTH",
+				"target": "OCEAN"
+			},{
+				"exit": "WEST",
+				"target": "COOL FISH"
+			}
+
+		]
+	},"SHIP": {
+		"name": "ship",
+		"desc": "A giant wave crashes over you, and when you resurface there's a giant \npirate ship looming above. You hear people above yelling about a man overboard \nand before you know it, you're hoisted up to the deck. You're very confused but \nthe pirates insist you're one of them. Deciding to go with the flow, you \nshrug and put on a bandana. You look fantasitc. The treasure could be in any\ndirection but most likely not south. ",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "SAILING"
+			},{
+				"exit": "EAST",
+				"target": "END"
+			},{
+				"exit": "SOUTH",
+				"target": "TOLDYOU"
+			},{
+				"exit": "WEST",
+				"target": "SAILING"
+			}
+
+		]
+	},"TOLDYOU": {
+		"name": "ship on the ocean",
+		"desc": "I told you there's nothing here.",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "SAILING"
+			},{
+				"exit": "EAST",
+				"target": "SAILING"
+			},{
+				"exit": "SOUTH",
+				"target": "TOLDYOU"
+			},{
+				"exit": "WEST",
+				"target": "SAILING"
+			}
+
+		]
+	},"SAILING": {
+		"name": "ship on the ocean",
+		"desc": "You sail on, you can feel the wind in your hair.",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "SAILING"
+			},{
+				"exit": "EAST",
+				"target": "END"
+			},{
+				"exit": "SOUTH",
+				"target": "SAILING"
+			},{
+				"exit": "WEST",
+				"target": "SAILING"
+			}
+
+		]
+	},"END": {
+		"name": "island",
+		"desc": "Land ho! You and your crew drop the anchor and make it to the shore. \nConviently, there's a giant treasure chest right in the middle of the beach filled \nwith gold! You each take your cut and celebrate! (To quit the game type in 'quit')",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "END"
+			},{
+				"exit": "EAST",
+				"target": "END"
+			},{
+				"exit": "SOUTH",
+				"target": "END"
+			},{
+				"exit": "WEST",
+				"target": "END"
+			}
+
+		]
 	}
 
 
