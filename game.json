@@ -69,28 +69,82 @@
 			},{
 				"exit": "SOUTH",
 				"target": "CARNIVAL"
-			},{
-				"exit": "WEST",
-				"target": "BACK ALLEY"
 			}
 
 		]
-	},"DEEPER OCEAN": {
-		"name": "Deeper Ocean",
-		"desc": "You keep swiming foward, and the waves are getting bigger. You can't totally see it, but there's something further to the north. ",
+	},"HOT DOG": {
+		"name": "Hot Dog Stand",
+		"desc": "You eat a hot dog, it's the best thing you've had in your life. The vendor mutters about something in the ocean",
 		"exits": [
 			{
 				"exit": "NORTH",
-				"target": "SHIP"
+				"target": "BOARDWALK"
 			},{
 				"exit": "EAST",
-				"target": "SWIMWRONGWAY"
+				"target": "NO"
 			},{
 				"exit": "SOUTH",
-				"target": "OCEANBACK"
+				"target": "CARNIVAL"
 			},{
 				"exit": "WEST",
-				"target": "SWIMWRONGWAY"
+				"target": "BOARDWALK"
+			}
+
+		]
+	},"NO": {
+		"name": "Hot Dog Stand",
+		"desc": "You can't go this way.",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "BOARDWALK"
+			},{
+				"exit": "EAST",
+				"target": "NO"
+			},{
+				"exit": "SOUTH",
+				"target": "CARNIVAL"
+			},{
+				"exit": "WEST",
+				"target": "BOARDWALK"
+			}
+
+		]
+	},"CARNIVAL": {
+		"name": "Carnival",
+		"desc": "You walk through the carnival, there's kids running around from ride to ride with \ntheir parents close behind. The carnies loudly advertise their games \nfrom all sides except the north. Otherwise it seems like a dead end. ",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "BOARDWALK"
+			},{
+				"exit": "EAST",
+				"target": "HOT DOG STAND"
+			},{
+				"exit": "SOUTH",
+				"target": "NO2"
+			},{
+				"exit": "WEST",
+				"target": "NO2"
+			}
+
+		]
+	},"NO2": {
+		"name": "Same place",
+		"desc": "There's nothing cool this way.",
+		"exits": [
+			{
+				"exit": "NORTH",
+				"target": "CARNIVAL"
+			},{
+				"exit": "EAST",
+				"target": "NO2"
+			},{
+				"exit": "SOUTH",
+				"target": "NO2"
+			},{
+				"exit": "WEST",
+				"target": "NO2"
 			}
 
 		]
